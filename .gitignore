@@ -1,0 +1,5 @@
+.DS_Store
+database.yml
+coverage.out
+app
+run.sh
