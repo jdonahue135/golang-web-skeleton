@@ -7,6 +7,7 @@ This project is a quickstart to developing a golang webapp.
 - Install Go version 1.19
 - Clone this repository to your local machine
 - Copy database config file `cp database-sample.yml database.yml` and fill in your values
+- Run `./run.sh` in a terminal to launch application
 
 ## Dependencies
 
@@ -14,4 +15,7 @@ This project is a quickstart to developing a golang webapp.
 - Uses the [chi router](https://github.com/go-chi/chi)
 - Uses [alex edwards SCS](https://github.com/alexedwards/scs) session management
 - Uses [nosurf](https://github.com/justinas/nosurf)
+
+## References
+
 - Adapted from [Trevor Sawler's bookings app](https://github.com/tsawler/bookings)
