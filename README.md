@@ -7,6 +7,10 @@ This project is a quickstart to developing a golang webapp.
 - Install Go version 1.19
 - Clone this repository to your local machine
 - Copy database config file `cp database-sample.yml database.yml` and fill in your values
+- Find and replace `github.com/jdonahue135/golang-web-skeleton` with your project repository
+- Install `pop v6.1.1`
+- run migrations `soda migrate`
+- Edit `run.sh` file and add in your env variables
 - Run `./run.sh` in a terminal to launch application
 
 ## Dependencies
