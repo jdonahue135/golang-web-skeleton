@@ -11,7 +11,13 @@ This project is a quickstart to developing a golang webapp.
 - Install `pop v6.1.1`
 - run migrations `soda migrate`
 - Edit `run.sh` file and add in your env variables
+- Run `chmod +x run.sh` to register command
 - Run `./run.sh` in a terminal to launch application
+
+## Testing with Coverage
+
+- First time setup: run `chmod +x coverage.sh` to register coverage command (edit default browser in command if needed)
+- Run `./coverage.sh`
 
 ## Dependencies
 
